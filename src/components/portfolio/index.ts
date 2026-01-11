@@ -1,0 +1,5 @@
+export { Header } from './Header'
+export { Hero } from './Hero'
+export { WorkGrid } from './WorkGrid'
+export { WhyAppwrite } from './WhyAppwrite'
+export { Footer } from './Footer'
