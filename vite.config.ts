@@ -29,6 +29,8 @@ const config = defineConfig({
     allowedHosts: true,
     hmr: true,
   },
+  
+  
 })
 
 export default config

@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite dev --port 3000",
     "start": "bun run server.ts",
-    "build": "tsr generate && tsc --noEmit && vite build --sourcemap",
+    "build": "tsr generate && tsc --noEmit && vite build --sourcemap && mv dist .output",
     "build:node": "tsr generate && FOR_SITES=true vite build",
     "serve": "vite preview",
     "test": "vitest run",
@@ -14,6 +14,7 @@
     "format": "prettier --write .",
     "generate:routes": "tsr generate",
     "clean": "rm -rf .ouptut dist node_modules/.vite .nitro .tanstack"
+    
   },
   "dependencies": {
     "@hookform/resolvers": "^5.2.2",
